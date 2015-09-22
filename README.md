@@ -1,5 +1,5 @@
 [![TileCraft](https://img.shields.io/badge/app-MimicRush%201.2.0-brightgreen.svg)](#)
-[![MIT License](https://img.shields.io/badge/license-GNU%20GPL%203-blue.svg)](LICENSE)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Haxe 3](https://img.shields.io/badge/language-Haxe%203-orange.svg)](http://www.haxe.org)
 [![OpenFL 2](https://img.shields.io/badge/require-OpenFL 2-red.svg)](http://www.openfl.org)
 [![Cross platform](https://img.shields.io/badge/platform-win%2Bmac%2Blinux%2Bios%2Bandroid-yellow.svg)](http://www.openfl.org)
@@ -22,7 +22,7 @@ Easy peasy casual game with a nice twist.
 
 # The project
 
-I developed this project to learn HAXE and OpenFL.
+I've developed this project to learn HAXE and OpenFL.
 
 I've decided to release the project open-source since I believe it could be useful for other people.
 
@@ -43,7 +43,7 @@ I've also stripped away the code that generate a token to talk with the score se
 to avoid fake score submission, or score submission by 3rd part forks.
 
 I hope you will understand, all the rest is completely open-source and ready to be
-compiled. Do what you want with it ;)
+compiled. Do what you want with it (according to the MIT licence) ;)
 
 # Play with the code
 
