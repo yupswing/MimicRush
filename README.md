@@ -5,7 +5,7 @@
 [![Cross platform](https://img.shields.io/badge/platform-win%2Bmac%2Blinux%2Bios%2Bandroid-yellow.svg)](http://www.openfl.org)
 # ![MIMICRUSH](https://dl.dropboxusercontent.com/u/683344/akifox/mimicrush/git/title.png)
 
-2.5D fast multi-platform modeling tool to make tiles for games, icons or whatever you want!
+Easy peasy casual game with a nice twist.
 
 - Developed by [Simone Cingano](http://akifox.com)
 
@@ -24,8 +24,7 @@
 
 I developed this project to learn HAXE and OpenFL.
 
-I've decided to release the project open-source since
-I believe it could be useful for other people.
+I've decided to release the project open-source since I believe it could be useful for other people.
 
 I am sorry if a lot of the code is uncommented and ugly,
 but I am still pretty sure there is something to learn especially for newbies.
