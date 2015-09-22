@@ -1,0 +1,78 @@
+flag	content
+$SHARE	Sto giocando a Mimic Rush: provalo, è gratis!
+$PLAY	Gioca
+$NEWGAME	Nuova
+$RESUME	Continua
+$PAUSED	Pausa
+$READY	Pronti
+$SET	Ai posti
+$GO	Via!
+$QUIT	Esci
+$STATISTICS	Statistiche
+$STATISTICS_TITLE1	Statistiche
+$STATISTICS_TITLE2	Mondiali
+$STATISTICS_SUBMISSIONS	Partite giocate globalmente
+$STATISTICS_SCORE	Punteggio
+$OPTIONS	Opzioni
+$FULLSCREEN	Schermo int.
+$MUSIC	Musica
+$SOUND	Suono
+$EFFECTS	Effetti
+$LANGUAGE	Italiano
+$HELP	Aiuto
+$CREDITS	Crediti
+$GAMEOVER	Game Over
+$LAST_SCORE	Ultimo punt.
+$BEST_SCORE	Highscore
+$SCORE	Punteggio
+$NEW_HIGHSCORE	Nuovo Highscore
+$LOADING_SCORE	Caricamento<N>statistiche online
+$ERROR_SCORE	Errore di connessione!<N>Perfavore riprova più tardi
+$UPDATE_TITLE	Aggiornamento disponibile
+$UPDATE_CONTENT	Clicca per andare al sito web
+
+$DESKTOP_SKIP	premi [spazio] per continuare
+$DESKTOP_THANKS	Akifox Studio ti ringrazia
+$DESKTOP_INFO	Questo gioco è completamente open-source<N>Per supportare lo sviluppatore e la produzione di nuovi giochi<N>clicca qui e donami anche solo un euro<N>e ti sarò profondamente grato!
+
+$HELP_INTRODUCTION_0	Ciao! <tap per continuare>
+$HELP_INTRODUCTION_1	Benvenuto al tutorial di Mimic Rush
+$HELP_INTRODUCTION_2	Questo è il tuo pad...
+$HELP_INTRODUCTION_3	...ce ne sono tanti come lui,<N>ma questo è il tuo...
+$HELP_INTRODUCTION_4	...e questo è il master pad
+$HELP_INTRODUCTION_5	L'obiettivo è copiare sul tuo pad<N>ciò che vedi sul master pad
+$HELP_INTRODUCTION_6	Per cambiare colore a una tessera<N>basta che tu la tocchi
+$HELP_INTRODUCTION_7	Quindi comincia a picchiettare!
+$HELP_FIRSTROUND_0	Ottimo lavoro!
+$HELP_FIRSTROUND_1	Come vedi hai preso un po di punti!
+$HELP_FIRSTROUND_2	Ogni tessera corretta ti da un punto...
+$HELP_FIRSTROUND_3	...e ogni volta che completi un pad<N>guadagni cinque punti.
+$HELP_FIRSTROUND_4	Ma ricorda: il tempo stringe
+$HELP_FIRSTROUND_5	La partita termina quando<N>il conto alla rovescia finisce...
+$HELP_FIRSTROUND_6	...ma tu recuperi un secondo<N>ogni volta che completi un pad
+$HELP_FIRSTROUND_7	Pronti a giocare sul serio?
+$HELP_ROTATION_0	Ehi, sta ruotando!
+$HELP_ROTATION_1	Di tanto in tanto il master pad<N>ruota per metterti alla prova
+$HELP_ROTATION_2	Non ti preoccupare, questa rotazione<N>verrà azzerata dopo pochi secondi
+$HELP_ROTATION_3	Hai anche questo puntino<N>arancione sopra al tuo pad...
+$HELP_ROTATION_4	...il quale corrisponde all'altro<N>presente sul master pad
+$HELP_ROTATION_5	Questo punto di riferimento ti aiuterà<N>quando avviene una rotazione
+$HELP_ROTATION_6	Pronti per continuare?
+$HELP_MISTAKE_0	Ahia!
+$HELP_MISTAKE_1	Hai toccato una tessera sbagliata
+$HELP_MISTAKE_2	Quando sbagli ti viene<N>sottratto un secondo
+$HELP_MISTAKE_3	Meno errori fai, maggiore sarà<N>il tempo a tua disposizione
+$HELP_MISTAKE_4	Pronti per la prossima mossa?
+$HELP_HIGHSCORE_0	Come sta andando?<N>Ci stai prendendo la mano?
+$HELP_HIGHSCORE_1	Vicino al punteggio<N>c'è un cerchio
+$HELP_HIGHSCORE_2	Questo si riempie per mostrarti<N>quanto ti manca per fare Highscore!
+$HELP_HIGHSCORE_3	Come vedi ci siamo molto vicini<N>ancora qualche punto!
+$HELP_HIGHSCORE_4	Il cerchio vicino al conto alla<N>rovescia ti mostra il tempo rimasto
+$HELP_HIGHSCORE_5	Ogni cerchio diventa verde quando<N>guadagni punti o secondi...
+$HELP_HIGHSCORE_6	...e rosso quando ne perdi
+$HELP_HIGHSCORE_7	Pronto a fare un nuovo Highscore?
+$HELP_NEWHIGHSCORE_0	Ottimo, ce l'hai fatta!
+$HELP_NEWHIGHSCORE_1	Ora dovresti fare altri punti<N>più veloce che puoi
+$HELP_NEWHIGHSCORE_2	Alla fine ti mostrerò alcune<N>statistiche sul punteggio
+$HELP_NEWHIGHSCORE_3	Potrai vedere quanto sei bravo/a<N>rispetto a tutti gli altri giocatori
+$HELP_NEWHIGHSCORE_4	Pronti a giocare?

@@ -1,0 +1,29 @@
+<TextureAtlas imagePath="icons.png">
+	<SubTexture name="arrow-l.png" x="504" y="228" width="166" height="83" frame_x="132" frame_y="61" frame_width="428" frame_height="214" />
+	<SubTexture name="arrow-r.png" x="528" y="558" width="166" height="83" frame_x="132" frame_y="61" frame_width="428" frame_height="214" />
+	<SubTexture name="back-d.png" x="281" y="0" width="199" height="109" frame_x="115" frame_y="53" frame_width="428" frame_height="214" />
+	<SubTexture name="back-l.png" x="472" y="111" width="187" height="115" frame_x="114" frame_y="42" frame_width="428" frame_height="214" />
+	<SubTexture name="back-r.png" x="490" y="351" width="187" height="115" frame_x="131" frame_y="45" frame_width="428" frame_height="214" />
+	<SubTexture name="cog.png" x="490" y="468" width="177" height="88" frame_x="128" frame_y="59" frame_width="428" frame_height="214" />
+	<SubTexture name="credits.png" x="661" y="91" width="164" height="81" frame_x="134" frame_y="63" frame_width="428" frame_height="214" />
+	<SubTexture name="effects-no.png" x="0" y="628" width="262" height="105" frame_x="102" frame_y="48" frame_width="428" frame_height="214" />
+	<SubTexture name="effects.png" x="264" y="628" width="262" height="105" frame_x="102" frame_y="48" frame_width="428" frame_height="214" />
+	<SubTexture name="help.png" x="649" y="728" width="164" height="82" frame_x="135" frame_y="60" frame_width="428" frame_height="214" />
+	<SubTexture name="language.png" x="266" y="232" width="236" height="117" frame_x="96" frame_y="42" frame_width="428" frame_height="214" />
+	<SubTexture name="link_facebook.png" x="0" y="496" width="264" height="130" frame_x="83" frame_y="42" frame_width="428" frame_height="214" />
+	<SubTexture name="link_home.png" x="0" y="364" width="264" height="130" frame_x="83" frame_y="42" frame_width="428" frame_height="214" />
+	<SubTexture name="link_twitter.png" x="0" y="232" width="264" height="130" frame_x="83" frame_y="42" frame_width="428" frame_height="214" />
+	<SubTexture name="mobile.png" x="482" y="0" width="180" height="89" frame_x="124" frame_y="57" frame_width="428" frame_height="214" />
+	<SubTexture name="music-no.png" x="266" y="473" width="222" height="120" frame_x="142" frame_y="43" frame_width="428" frame_height="214" />
+	<SubTexture name="music.png" x="266" y="351" width="222" height="120" frame_x="142" frame_y="43" frame_width="428" frame_height="214" />
+	<SubTexture name="pause.png" x="672" y="174" width="156" height="78" frame_x="135" frame_y="64" frame_width="428" frame_height="214" />
+	<SubTexture name="play.png" x="669" y="468" width="156" height="79" frame_x="108" frame_y="78" frame_width="428" frame_height="214" />
+	<SubTexture name="quit.png" x="528" y="643" width="165" height="83" frame_x="134" frame_y="62" frame_width="428" frame_height="214" />
+	<SubTexture name="restart.png" x="281" y="111" width="189" height="81" frame_x="110" frame_y="62" frame_width="428" frame_height="214" />
+	<SubTexture name="screen-no.png" x="0" y="0" width="279" height="114" frame_x="85" frame_y="39" frame_width="428" frame_height="214" />
+	<SubTexture name="screen.png" x="0" y="116" width="279" height="114" frame_x="85" frame_y="39" frame_width="428" frame_height="214" />
+	<SubTexture name="share.png" x="664" y="0" width="164" height="82" frame_x="153" frame_y="52" frame_width="428" frame_height="214" />
+	<SubTexture name="sound-no.png" x="0" y="735" width="229" height="85" frame_x="135" frame_y="57" frame_width="428" frame_height="214" />
+	<SubTexture name="sound.png" x="231" y="735" width="229" height="85" frame_x="135" frame_y="57" frame_width="428" frame_height="214" />
+	<SubTexture name="trophy.png" x="462" y="735" width="185" height="92" frame_x="123" frame_y="57" frame_width="428" frame_height="214" />
+</TextureAtlas>

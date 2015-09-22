@@ -1,0 +1,7 @@
+Export/
+original/
+deploy/
+*.sublime-workspace
+*.hxproj
+stc.hx
+*.wav

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	
+	<file id="data" value="data.tsv"/>
+	
+	<!--American English-->
+	<locale id="en-US" is_default="true" sort="0">	
+		<contributors value="Simone Cingano"/>
+		<ui language="Language" region="Region" accept="Okay" />
+		<label id="en-US" language="English" region="United States"/>	
+        <label id="it-IT" language="Inglese" region="Stati Uniti D'America"/>
+    </locale>
+	
+	<!--British English-->
+    <locale id="it-IT" sort="1"> 
+		<contributors value="Simone Cingano"/>
+        <ui language="Lingua" region="Regione"/>        
+		<label id="en-US" language="Italian" region="Italy"/>	
+        <label id="it-IT" language="Italiano" region="Italia"/>
+    </locale>
+	
+</data>

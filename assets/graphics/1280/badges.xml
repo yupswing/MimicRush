@@ -1,0 +1,5 @@
+<TextureAtlas imagePath="badges.png">
+	<SubTexture name="android.png" x="0" y="247" width="389" height="121" frame_x="5" frame_y="5" frame_width="400" frame_height="132" />
+	<SubTexture name="ios.png" x="0" y="124" width="389" height="121" frame_x="5" frame_y="5" frame_width="400" frame_height="132" />
+	<SubTexture name="others.png" x="0" y="0" width="389" height="122" frame_x="6" frame_y="5" frame_width="400" frame_height="132" />
+</TextureAtlas>

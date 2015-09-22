@@ -1,0 +1,7 @@
+<TextureAtlas imagePath="tiles.png">
+	<SubTexture name="longtile_white.png" x="0" y="314" width="619" height="312" frame_x="4" frame_y="0" frame_width="627" frame_height="312" />
+	<SubTexture name="longtile_yellow.png" x="0" y="0" width="619" height="312" frame_x="4" frame_y="0" frame_width="627" frame_height="312" />
+	<SubTexture name="tile_red.png" x="558" y="628" width="277" height="143" frame_x="4" frame_y="0" frame_width="285" frame_height="143" />
+	<SubTexture name="tile_white.png" x="279" y="628" width="277" height="143" frame_x="4" frame_y="0" frame_width="285" frame_height="143" />
+	<SubTexture name="tile_yellow.png" x="0" y="628" width="277" height="143" frame_x="4" frame_y="0" frame_width="285" frame_height="143" />
+</TextureAtlas>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+
+	<!-- ################################ SET ################################### -->
+
+
+	<meta title="Mimic Rush" package="com.akifox.mimicrush" version="1.2.0" company="Akifox Studio" /> <!--  #TODEPLOY -->
+  <app main="Main" path="Export" file="Mimic Rush" preloader="com.akifox.plik.Preloader" />
+
+
+	<!-- ############################### WINDOW ################################# -->
+
+	<window fps="60" background="0x242424" />
+
+	<window width="1024" height="576" resizable="true" unless="mobile" />
+
+	<window fullscreen="true" if="mobile" />
+	<window orientation="landscape" />
+
+	<window vsync="true" antialiasing="4" if="cpp" />
+	<window hardware="true" allow-shaders="true" require-shaders="false" if="cpp"/>
+
+
+	<!-- ################################ CODE ################################## -->
+
+	<source path="src" />
+	<!-- Openfl Libraries -->
+  <haxelib name="openfl" />
+	<haxelib name="extension-share" />
+	<haxelib name="actuate" />
+	<!-- Akifox Libraries -->
+	<haxelib name="akifox-transform" />
+	<haxelib name="akifox-asynchttp" />
+	<haxelib name="plik" />
+	<!-- Other Libraries -->
+	<haxelib name="firetongue" />
+	<haxelib name="compiletime" />
+
+
+	<!-- ############################# CUSTOM BUILDS ############################ -->
+
+	<!-- PLATFORM TYPES:
+				DESKTOP (WINDOWS, MAC, LINUX)
+				WEB (FLASH, HTML5, FIREFOX, EMSCRIPTEN)
+				MOBILE (ANDROID, BLACKBERRY, IOS, TIZEN, WEBOS)
+				CONSOLE -->
+
+	<haxedef name="legacy" if="v2" />
+
+	<!-- Demo mode -->
+	<haxedef name="app_demo" if="web" />
+
+	<!-- Invite donations -->
+	<haxedef name="app_donations" if="desktop" />
+
+	<!-- Score submission -->
+	<haxedef name="app_submitscore" unless="web" />
+
+	<!-- Update check (outside store) -->
+	<!-- <haxedef name="app_checkupdates" if="desktop" />-->
+	<!-- #TODEPLOY **** uncomment **** -->
+
+	<!-- ################################ ASSETS ################################ -->
+
+	<!-- Generic graphics -->
+	<assets path="assets/graphics/generic" include="*.png|*.jpg|*.xml" />
+	<!-- Multi resolution graphics -->
+
+	<section if="web">
+		<assets path="assets/graphics/1280" include="*.png|*.jpg|*.xml" />
+	</section>
+
+	<section if="mobile">
+			<assets path="assets/graphics/2560" include="*.png|*.jpg|*.xml" exclude="badges*" unless="ios" /> <!-- No 2560 for iOS -->
+			<assets path="assets/graphics/1920" include="*.png|*.jpg|*.xml" exclude="badges*" />
+			<assets path="assets/graphics/1280" include="*.png|*.jpg|*.xml" exclude="badges*" />
+			<assets path="assets/graphics/640" include="*.png|*.jpg|*.xml" exclude="badges*" />
+	</section>
+
+	<section if="desktop">
+			<assets path="assets/graphics/2560" include="*.png|*.jpg|*.xml" />
+			<assets path="assets/graphics/1920" include="*.png|*.jpg|*.xml" />
+			<assets path="assets/graphics/1280" include="*.png|*.jpg|*.xml" />
+			<assets path="assets/graphics/640" include="*.png|*.jpg|*.xml" />
+	</section>
+
+	<!-- Audio -->
+
+	<section if="flash">
+		<assets path="assets/sound" include="*.mp3" />
+		<assets path="assets/music" include="*.mp3" />
+	</section>
+	<section unless="flash">
+		<assets path="assets/sound" include="*.ogg" />
+		<assets path="assets/music" include="*.ogg" />
+	</section>
+	<!-- Fonts -->
+	<assets path="assets/fonts" include="*.ttf" />
+	<!-- PLIK Preloader -->
+	<assets path="assets/preloader" include="*" if="( flash || html5 )" />
+	<!-- PLIK Debug -->
+	<assets path="assets/debug" include="*" if="debug" />
+	<!-- Firetongue localisation -->
+	<assets path="assets/locales" include="*" />
+
+
+	<!-- ################################# ICONS ################################# -->
+
+	<!-- Per-platform icons -->
+	<icon path="assets/icons/icon_flat_rounded.svg" /> <!-- android or else -->
+	<icon path="assets/icons/icon_flat.svg"  if="ios" />
+	<icon path="assets/icons/icon_round.svg" if="windows" />
+	<icon path="assets/icons/icon_round.svg" if="mac" />
+	<icon path="assets/icons/icon_round.svg" if="linux" />
+
+
+	<!-- ################################ ANDROID ################################ -->
+
+	<!-- Android certificate -->
+	<section if="release">
+		<certificate path="/Users/simo/Dev/haxe/android/mimicrush.keystore" if="android" />
+		<!--<certificate path="path/to/author.p12" if="blackberry" />-->
+	</section>
+
+	<!-- Android architecture -->
+	<android target-sdk-version="21" install-location="preferExternal" />
+	<section unless="x86">
+		<architecture name="armv7" />
+	</section>
+	<section if="x86">
+		<compilerflag name="-DHXCPP_X86" if="x86" />
+		<architecture name="x86" if="x86" />
+	</section>
+
+
+	<!-- ################################## IOS ################################## -->
+
+	<ios deployment="6" binaries="armv7" devices="universal" prerendered-icon="true" />
+	<launchImage path="assets/icons/launchimage.svg" />
+	<!-- Generic iOS Launchimages -->
+<!-- 	<launchImage path="assets/launchimage/Default.png" width="320" height="480" />
+	<launchImage path="assets/launchimage/Default@2x.png" width="640" height="960" />
+	<launchImage path="assets/launchimage/Default-568h@2x1.png" width="640" height="1136" /> -->
+	<!-- Landscape only iOS Launchimages -->
+<!-- 	<launchImage path="assets/launchimage/Default-568h@2x21.png" width="2208" height="1242" />
+	<launchImage path="assets/launchimage/Default-Landscape.png" width="1024" height="768" />
+	<launchImage path="assets/launchimage/Default-Landscape@2x.png" width="2048" height="1536" /> -->
+	<!-- Portrait only iOS Launchimages -->
+<!-- 	<launchImage path="assets/launchimage/Default-568h@2x.png" width="750" height="1334" />
+	<launchImage path="assets/launchimage/Default-568h@2x2.png" width="1242" height="2208" />
+	<launchImage path="assets/launchimage/Default-Portrait.png" width="768" height="1024" />
+	<launchImage path="assets/launchimage/Default-Portrait@2x.png" width="1536" height="2048" /> -->
+
+</project>

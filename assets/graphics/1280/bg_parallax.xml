@@ -1,0 +1,8 @@
+<TextureAtlas imagePath="bg_parallax.png">
+	<SubTexture name="tile2x_white.png" x="168" y="336" width="166" height="104" frame_x="0" frame_y="0" frame_width="166" frame_height="104" />
+	<SubTexture name="tile2x_yellow.png" x="0" y="336" width="166" height="104" frame_x="0" frame_y="0" frame_width="166" frame_height="104" />
+	<SubTexture name="tile4x_white.png" x="0" y="168" width="301" height="166" frame_x="2" frame_y="0" frame_width="303" frame_height="167" />
+	<SubTexture name="tile4x_yellow.png" x="0" y="0" width="301" height="166" frame_x="2" frame_y="0" frame_width="303" frame_height="167" />
+	<SubTexture name="tile_white.png" x="303" y="79" width="105" height="77" frame_x="0" frame_y="0" frame_width="105" frame_height="77" />
+	<SubTexture name="tile_yellow.png" x="303" y="0" width="105" height="77" frame_x="0" frame_y="0" frame_width="105" frame_height="77" />
+</TextureAtlas>

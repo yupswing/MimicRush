@@ -1,0 +1,78 @@
+flag	content
+$SHARE	Im playing Mimic Rush: try it, it's free!
+$PLAY	Play
+$NEWGAME	New Game
+$RESUME	Resume
+$PAUSED	Paused
+$READY	Ready
+$SET	Set
+$GO	Go!
+$QUIT	Quit
+$STATISTICS	Statistics
+$STATISTICS_TITLE1	Worldwide
+$STATISTICS_TITLE2	Statistics
+$STATISTICS_SUBMISSIONS	Worldwide games played
+$STATISTICS_SCORE	Score
+$OPTIONS	Options
+$FULLSCREEN	Fullscreen
+$MUSIC	Music
+$SOUND	Sound
+$EFFECTS	Effects
+$LANGUAGE	English
+$HELP	Help
+$CREDITS	Credits
+$GAMEOVER	Game Over
+$LAST_SCORE	Last Score
+$BEST_SCORE	Best Score
+$SCORE	Score
+$NEW_HIGHSCORE	New Highscore
+$LOADING_SCORE	Loading<N>online statistics
+$ERROR_SCORE	Connection error!<N>Please try again later
+$UPDATE_TITLE	Update available
+$UPDATE_CONTENT	Click to visit the website
+
+$DESKTOP_SKIP	press [space] to continue
+$DESKTOP_THANKS	Akifox Studio thanks you for playing
+$DESKTOP_INFO	This game is completely free.<N>To support the developer and the production of new games,<N>click here and donate also just one dollar<N>and I will be deeply grateful!
+
+$HELP_INTRODUCTION_0	Hello! <tap to continue>
+$HELP_INTRODUCTION_1	Welcome to the Mimic Rush tutorial
+$HELP_INTRODUCTION_2	This is your pad...
+$HELP_INTRODUCTION_3	...there are many like it,<N>but this one is yours...
+$HELP_INTRODUCTION_4	...and this is the master pad
+$HELP_INTRODUCTION_5	Your objective is to copy to your pad<N>what you see in the master pad
+$HELP_INTRODUCTION_6	To change a tile color to orange<N>you just have to tap on it
+$HELP_INTRODUCTION_7	So let's start tapping!
+$HELP_FIRSTROUND_0	Good job!
+$HELP_FIRSTROUND_1	As you see you've got some points!
+$HELP_FIRSTROUND_2	It is one point every correct tile...
+$HELP_FIRSTROUND_3	...and five points every time<N>you finish to copy a whole master pad
+$HELP_FIRSTROUND_4	But remember: the clock is ticking
+$HELP_FIRSTROUND_5	The game ends when the<N>countdown reaches zero...
+$HELP_FIRSTROUND_6	...but you recover one second every<N>time you finish a pad
+$HELP_FIRSTROUND_7	Ready to play hard?
+$HELP_ROTATION_0	Hey, that is rotating!
+$HELP_ROTATION_1	From time to time the master pad<N>will rotate to challenge you
+$HELP_ROTATION_2	Dont worry, this rotation will<N>be reset after last few seconds
+$HELP_ROTATION_3	You also have got this <N>orange dot over your pad...
+$HELP_ROTATION_4	...which matches the other one<N>on the master pad
+$HELP_ROTATION_5	This reference point will help you<N>when a rotation happens
+$HELP_ROTATION_6	Ready to continue?
+$HELP_MISTAKE_0	Ouch!
+$HELP_MISTAKE_1	You've tapped on a wrong tile
+$HELP_MISTAKE_2	When you make a mistake<N>you lose a second
+$HELP_MISTAKE_3	Fewer mistakes you make<N>more it will be the time available
+$HELP_MISTAKE_4	Ready for the next move?
+$HELP_HIGHSCORE_0	How is it going?<N>Getting the hang of it?
+$HELP_HIGHSCORE_1	Next to the score number<N>you can see a circle
+$HELP_HIGHSCORE_2	This circle get filled to show<N>how close you are to a new highscore
+$HELP_HIGHSCORE_3	As you see you are very close<N>just few more points!
+$HELP_HIGHSCORE_4	The circle next to the countdown<N>shows the time left
+$HELP_HIGHSCORE_5	Each circle will become green when<N>gain points or seconds...
+$HELP_HIGHSCORE_6	...and red when you lose them
+$HELP_HIGHSCORE_7	Ready to make a new highscore?
+$HELP_NEWHIGHSCORE_0	Great, you did it!
+$HELP_NEWHIGHSCORE_1	Now you should make more points<N>as fast as you can
+$HELP_NEWHIGHSCORE_2	At the end I will show you<N>some statistics about scores
+$HELP_NEWHIGHSCORE_3	So you will see how good you are<N>compared to all the other players
+$HELP_NEWHIGHSCORE_4	Ready to play?
