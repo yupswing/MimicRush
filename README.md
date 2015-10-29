@@ -62,7 +62,7 @@ haxelib install compiletime
 
 Plus, you have to install the PLIK library from git
 ````
-haxelib git plik https://github.com/yupswing/plik.git haxelib
+haxelib git plik https://github.com/yupswing/plik.git
 ````
 
 and you are ready to go (we use OpenFL v2 Legacy for compatibility, maybe one day I will port to OpenFL3)
