@@ -9,6 +9,7 @@ import com.akifox.plik.PLIK;
 import com.akifox.plik.Data;
 import com.akifox.plik.Gfx;
 import com.akifox.plik.Sfx;
+import com.akifox.tonguetwist.TongueTwist;
 import openfl.events.*;
 import haxe.Timer;
 
@@ -60,15 +61,16 @@ class GAME
 	private static inline var URL_SERVICE_STATS_SUBMIT = "http://akifox.com/mimicrush/service/stats/submit/";
 	private static inline var URL_SERVICE_STATS_GET = "http://akifox.com/mimicrush/service/stats/get/";
 	private static inline var URL_SERVICE_VERSION = "http://akifox.com/mimicrush/service/version/";
+	private static inline var URL_SERVICE_NEWS = "http://akifox.com/mimicrush/service/news/";
 
 	public static inline var LINK_UPDATE = 	     "http://akifox.com/mimicrush/get/";
-	public static inline var LINK_DONATE = 	     "http://akifox.com/donate/";
 
 	public static inline var LINK_FACEBOOK =     "http://www.facebook.com/pages/Akifox-Studio-Games/1557970471141900";
 	public static inline var LINK_TWITTER =      "http://twitter.com/AkifoxStudio";
 	public static inline var LINK_WWW = 	       "http://akifox.com/mimicrush/";
 
   #if app_donations
+	public static inline var LINK_DONATE = 	     "http://akifox.com/donate/";
 	public static inline var LINK_APPSTORE =     "http://akifox.com/mimicrush/get/?p=ios";
 	public static inline var LINK_GOOGLEPLAY =   "http://akifox.com/mimicrush/get/?p=android";
 	public static inline var LINK_DOWNLOAD =     "http://akifox.com/mimicrush/get/";
@@ -151,7 +153,7 @@ class GAME
 	///////////////////////////////////////////////////////////////////////////
 	// MULTILANGUAGE vars and getter
 
-	private static var tongue:firetongue.FireTongue;
+	private static var tongue:TongueTwist;
 	private static var languages = ["en-US","it-IT"];
 	public static inline var LANGUAGES_COUNT = 2;
 
@@ -169,7 +171,7 @@ class GAME
 		if (currentLanguage>LANGUAGES_COUNT-1)
 				currentLanguage = LANGUAGES_COUNT-1;
 
-		GAME.tongue = new firetongue.FireTongue();
+		GAME.tongue = new TongueTwist();
 		GAME.tongue.init(languages[currentLanguage],null,true,true);
 	}
 

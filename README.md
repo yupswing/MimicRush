@@ -56,13 +56,13 @@ haxelib install extension-share
 haxelib install actuate
 haxelib install akifox-transform
 haxelib install akifox-asynchttp
-haxelib install firetongue
 haxelib install compiletime
 ````
 
-Plus, you have to install the PLIK library from git
+Plus, you have to install the PLIK library and TongueTwist from git
 ````
-haxelib git plik https://github.com/yupswing/plik.git haxelib
+haxelib git plik https://github.com/yupswing/plik.git
+haxelib git akifox-tonguetwist https://github.com/yupswing/akifox-tonguetwist.git
 ````
 
 and you are ready to go (we use OpenFL v2 Legacy for compatibility, maybe one day I will port to OpenFL3)
@@ -74,6 +74,8 @@ lime test neko -Dv2
 ---
 
 ## TODO (1.3)
+- [ ] save offline score and submit when online
+- [ ] ping when launch
 - [ ] particles! (there should be some)
 - [ ] NOT WORKING splash screen (picture) on ios [asked to the community]
 - [ ] make the help text sarcastic!

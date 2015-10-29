@@ -119,7 +119,7 @@
 
 ## FINE TUNING
 - [x] better titles
-- [x] translation with firetongue
+- [x] translation with tonguetwist
 - [x] unload music from memory
 - [x] better pause management
 - [x] better unload/destroy system (TODO to be finished)
@@ -180,7 +180,7 @@
 - 571a669 statistics screen polish (animation, numbers ref, positioning)
 - 07f4357 new helptext sarcastic line + helptext fixes + parallax alpha improved
 - a6c5e1a new parallax system with batch drawing + effects determine transitions
-- ff25460 using firetongue for translations
+- ff25460 using tonguetwist for translations
 - e266845 translated help to italian + better help text + removed screenhelp
 - b9565c3 compressed graphics assets + fix for flash
 - 76f50a7 Fixed slow alpha hole on mobile targets
@@ -243,6 +243,7 @@
 - be68b35 HelpScreen sliding pictures, fix button
 - c551064 removed unused png, unload graphics in creditscreen
 - d6341fb Credit screen completed
+- d6341fb
 - 98d47a7 Setup help screen, credit screen e stats screen
 - a88ce37 added launch image, fancy backgrounds, credit screen draft, keys on menus
 - 951cb70 lighten mobile listeners (no keyboard)

@@ -31,9 +31,9 @@
 	<!-- Akifox Libraries -->
 	<haxelib name="akifox-transform" />
 	<haxelib name="akifox-asynchttp" />
+	<haxelib name="akifox-tonguetwist" />
 	<haxelib name="plik" />
 	<!-- Other Libraries -->
-	<haxelib name="firetongue" />
 	<haxelib name="compiletime" />
 
 
@@ -100,7 +100,7 @@
 	<assets path="assets/preloader" include="*" if="( flash || html5 )" />
 	<!-- PLIK Debug -->
 	<assets path="assets/debug" include="*" if="debug" />
-	<!-- Firetongue localisation -->
+	<!-- TongueTwist localisation -->
 	<assets path="assets/locales" include="*" />
 
 
