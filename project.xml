@@ -4,7 +4,7 @@
 	<!-- ################################ SET ################################### -->
 
 
-	<meta title="Mimic Rush" package="com.akifox.mimicrush" version="1.2.0" company="Akifox Studio" /> <!--  #TODEPLOY -->
+	<meta title="Mimic Rush" package="com.akifox.themimicrush" version="1.2.0" company="Akifox Studio" /> <!--  #TODEPLOY -->
   <app main="Main" path="Export" file="Mimic Rush" preloader="com.akifox.plik.Preloader" />
 
 
@@ -123,7 +123,8 @@
 	</section>
 
 	<!-- Android architecture -->
-	<android target-sdk-version="21" install-location="preferExternal" />
+	<android target-sdk-version="22" install-location="preferExternal" />
+	<android permission="android.permission.INTERNET" />
 	<section unless="x86">
 		<architecture name="armv7" />
 	</section>
